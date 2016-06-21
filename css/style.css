@@ -53,8 +53,20 @@
     margin-top: -10px;
     margin-left: 20px; 
     float:left; }
-}
 
+.program {
+  height:900px;
+
+}
+.box {
+  width:150px;
+  height:200px;
+  margin:0 auto;
+  margin-top:100px;
+  text-align:center;
+
+ }
+}
 /*# sourceMappingURL=menu.css.map */
 
 
@@ -84,14 +96,67 @@
 /* final do banner // começo das programações*/
 .program {
   width:100%;
-  height:800px; }
+  height:700px; }
 .program h3 {
   color:#bf4243;
   font-size:7.3em;
   padding:35px 0px 0px 80px;
   float:left;
+
 }
 .versi {
   padding-top:80px;
   font-size:1.7em;
+  color:#444;
+} 
+
+.box {
+  width:250px;
+  height:300px;
+  margin:0 auto;
+  margin-top:100px;
+  text-align:center;
+
+ }
+.box>img {
+  padding:10px;
+}
+/* Botão box   */
+button.css3button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  padding: 0px 19px;
+  background: -moz-linear-gradient(
+    top,
+    #bf4242 0%,
+    #bf4242);
+  background: -webkit-gradient(
+    linear, left top, left bottom,
+    from(#bf4242),
+    to(#bf4242));
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border: 0px solid #bf4242;
+  -moz-box-shadow:
+    6px 3px 11px rgba(0,0,0,0.6),
+    inset 0px 0px 1px rgba(191,66,66,0.8);
+  -webkit-box-shadow:
+    6px 3px 11px rgba(0,0,0,0.6),
+    inset 0px 0px 1px rgba(191,66,66,0.8);
+  box-shadow:
+    6px 3px 11px rgba(0,0,0,0.6),
+    inset 0px 0px 1px rgba(191,66,66,0.8);
+  text-shadow:
+    0px -1px 0px rgba(000,000,000,0.5),
+    0px 1px 0px rgba(255,255,255,0.3);
+}
+/* fim do botão*/
+
+.fim {
+  background-color:#333;
+  width:100%;
+  height:600px;
+
 }
