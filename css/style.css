@@ -1,4 +1,5 @@
 /*  css   */ 
+ @import 'https://fonts.googleapis.com/css?family=Nova+Flat';
   * {
   padding: 0;
   margin: 0;
@@ -29,9 +30,9 @@
           text-transform: uppercase;
           padding: 10px;
           text-decoration: none; }
-}
+
 .icon {
-   visibility:hidden  ;
+   display:none; ;
 }
 
 @media screen and (max-width: 600px) {
@@ -54,212 +55,43 @@
     float:left; }
 }
 
-
 /*# sourceMappingURL=menu.css.map */
 
 
 /*   começo do banner de boas vindas     */
+.baner {
+  background-image:url(../images/cruz.jpg);
+  background-size:cover;
+  width:100%;
+  height:550px;
+  margin-top:-20px;
+}
+.baner > h1 {
+   font-size:5em;
+   font-family: 'Nova Flat', cursive;;
+   padding-top:150px;
+   color:#cccccc;
+   text-shadow: 1px 2px black;
+}
+.baner > h3 {
+   font-size:2.5em;
+   font-family: 'Nova Flat', cursive;;
 
-.homer {
-  background-image: url(../image/cruz.jpg);
-  width: 100%;
-  height: 450px; 
-  background-size: cover;
-  margin-top:-20px; 
-   }
-   .homer h2{
-    padding-left:25px;
-    padding-top:25px;
-   }
-
-  .homer .sliderr {
-      color: white;   }
-
-    .homer .sliderr h3 {
-       margin:0;
-      padding:0px; 
-    }
-    .homer .sliderr .more {
-      background-color: brown;
-      color: white;
-      font-size:1.3em;
-      width: 100%;
-      height: auto;
-      padding-left: 25px;
-    margin-left: 20px; }
+   color:#cccccc;
+   text-shadow: 1px 2px black;
+}
 
 /* final do banner // começo das programações*/
-  
-
-  .text{
-    padding-left:50px;
-    color:#666;
-    margin-top:40px;
-    font-size:1.4em;
-    width: auto;
-    float:left;
-  } 
-  .text .aspas  {
-    color:brown;
-     display:inline;
-    margin-left:70px;
-  }
-.text  h4 {
- float:right;
- margin-left:15px;
-}
-     
-.thumb {
- width:300px;
- height:auto;
- margin:10% 4% 10% 4%;
- float:left; 
- padding:10px;
- text-align:justify;
- 
-}
-
- 
-img{
+.program {
   width:100%;
-  height:auto;
-  box-shadow:1px 1px black; 
+  height:800px; }
+.program h3 {
+  color:#bf4243;
+  font-size:7.3em;
+  padding:35px 0px 0px 80px;
+  float:left;
 }
-.link1 {
- font-size:1.163em;
- color:#bf4243;
- text-decoration:none;
- text-decoration:none; 
+.versi {
+  padding-top:80px;
+  font-size:1.7em;
 }
-.link1:hover {
- font-size:1.163em;
- color:black;
- text-decoration:none;
-   
-}
-
-/**   Slider **/ 
-/*--Slider Part starts Here--*/
-#slider2,
-#slider3 {
-  -moz-box-shadow: none;
-  box-shadow: none;
-  -webkit-box-shadow: none;
-   
-}
-.callbacks_container {
-  width: 45%;
-  height:auto;
-  margin-left:30px;
-  text-align:left ;  
- margin-top:10px;
-    background-color:rgba(0,0,0,0.5);
-    padding-left:5px;
-}
-.callbacks {
-  position: relative;
-  list-style: none;
-  overflow: hidden;
-  width: 100%;
-  padding: 2px;
-  margin: 2px;
-}
-.callbacks li {
-  position: absolute;
-  width: 100%;
-/*-- agileits --*/
-  left: 0;
-  top: 0;
-}
-.callbacks_nav {
-    position: absolute;
-    -webkit-tap-highlight-color: rgba(0,0,0,1);
-    bottom: 13%;
-    left: 15%;
-    z-index: 3;
-    opacity: .7;
-    text-indent: -9999px;
-    overflow: hidden;
-    text-decoration: none;
-    height: 22px;
-    width: 16px;
-    background: url("../images/icons.png")no-repeat 0px 0px;
-    -webkit-transition: .5s all;
-    transition: .2s all;
-    -moz-transition: .2s all;
-    float:left;
-}
-.callbacks_nav:hover{
-  opacity: .9;
-  -moz-opacity: .9;
-}
-.callbacks_nav.next {
-    background-position: -39px 0px;
-    left: 17%;
-}
-.callbacks_nav:active {
-  opacity: 1.0;
-  -moz-opacity: 1;
-}
-.callbacks_tabs li{
-  display: inline-block;
-  margin: 0 .1em;
-}
-.callbacks_tabs {
-    list-style: none;
-    position: absolute;
-    z-index: 999;
-    bottom: 13%;
-    right: 15%;
-    padding: 0;
-    margin: 0;
-}
-.callbacks_tabs a{
- visibility: hidden;
-}
-.callbacks_tabs a:after {
-     content: "\f111";
-    font-size: 0;
-    font-family: FontAwesome;
-    visibility: visible;
-    height: 12px;
-    width: 12px;
-    display: inline-block;
-    border: 2px solid #fff;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-}
-.callbacks_here a:after {
-    background-color: #fff;
-} 
-@media screen and (max-width 600px) {
-
-.callbacks_container {
-  width: 30% !@important;
-  height:auto;
-  margin-left: 30px;
- margin-top: 100px;
-    background-color:rgba(0,0,0,0.5);
-}
-
-}
-/**    fim do slider     **/
-footer {
-
-  width:100%;
-  background-color:#303030;
-  height:850px;
-  color:white;
-}
-   
-
-.video  {
-   margin:100px; 
-   width:100%; 
-   max-width:500px; 
-   max-height:auto; 
-   height:350px;
- }
