@@ -162,7 +162,7 @@ footer{
   border-top:1px solid #fff;
   color:#fff;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 780px) {
    
      nav ul {
     display: none; }
@@ -202,13 +202,16 @@ footer{
      .embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
     /* fim */
     
-.texto{
-float:left;
 
-  }
-
+.page2 {
+background-color:#292C37;
+    width: 100%;
+    height: 450px;
+    padding-top: 20px;
+    color:#fff
+}
 .page2 > h1 {
    font-size:4em;
    font-family: 'Nova Flat', cursive;;
    padding-top:5,0px;
-   color:#000; }
+   color:#fff; }
