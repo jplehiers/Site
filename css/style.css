@@ -182,7 +182,7 @@ footer{
     float:left; }
 
 .program {
-  height:1500px;
+  height:1550px;
   width:auto;
 
 }
@@ -193,7 +193,7 @@ footer{
   margin-top:100px;
   text-align:center;
 
- }
+    }}
 .fim {
  
   height:900px;
@@ -206,3 +206,9 @@ footer{
 float:left;
 
   }
+
+.page2 > h1 {
+   font-size:4em;
+   font-family: 'Nova Flat', cursive;;
+   padding-top:5,0px;
+   color:#000; }
